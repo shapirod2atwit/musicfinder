@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+
+}
 body{
    background-color: #191414; 
 }
@@ -6,7 +14,20 @@ h1{
     color: #1DB954;
 }
 hr{
-    border: 1px solid;
+    color: white;
+}
+thead tr td{
+    color: #1DB954;
+    padding-left: 20px;
+}
+#songtable{
+    border-collapse: collapse;
+    width: 25em;
+    background-color: white;
     border-radius: 5px;
+    margin: 25px auto;
+    border-color: white;
+}
+label{
     color: white;
 }
