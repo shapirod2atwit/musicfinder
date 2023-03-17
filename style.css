@@ -6,6 +6,10 @@
     letter-spacing: 0.5px;
 
 }
+#form{
+    width: 90%;
+    margin-left: 5%;
+}
 body{
    background-color: #191414; 
 }
@@ -18,16 +22,35 @@ hr{
 }
 thead tr td{
     color: #1DB954;
-    padding-left: 20px;
+    padding: 10px 20px;
 }
-#songtable{
+.songtable{
     border-collapse: collapse;
-    width: 25em;
-    background-color: white;
+    width: 80%;
     border-radius: 5px;
-    margin: 25px auto;
+    margin-left: 10%;
+    margin-top:3rem;
     border-color: white;
 }
 label{
     color: white;
+    margin-left: 2rem;
+}
+legend{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+fieldset{
+    border-radius: 5px;
+    border-color: rgb(60, 60, 60);
+}
+input[value="Submit"]{
+    background-color: #1DB954;
+    padding: 0.25rem;
+    border-radius: 3px;
+    margin-left:2rem;
+    margin-bottom: 1rem;
+    border:none;
+
 }
