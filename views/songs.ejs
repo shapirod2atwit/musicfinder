@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Songs</title>
+  <link rel="stylesheet" href="public/css/style.css">
+</head>
+
+<body>
+  <h1>Songs</h1>
+  <table>
+    <thead>
+      <tr>
+        <!-- <th>ID</th> -->
+        <th>Song Name</th>
+        <th>Artist</th>
+        <th>Streams</th>
+        <th>Artist Origin</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% songs.forEach((song)=> { %>
+        <tr>
+          <!-- <td>
+            <%= song.id %>
+          </td> -->
+          <td>
+            <%= song.song %>
+          </td>
+          <td>
+            <%= song.artist %>
+          </td>
+          <td>
+            <%= song.streams %>
+          </td>
+          <td>
+            <%= song.location %>
+          </td>
+        </tr>
+        <% }); %>
+    </tbody>
+  </table>
+  <a href="/">Back to Sort</a>
+</body>
+
+</html>

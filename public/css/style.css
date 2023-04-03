@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+
+}
+#form{
+    width: 90%;
+    margin-left: 5%;
+}
+body{
+   background-color: #191414; 
+}
+h1{
+    text-align: center;
+    color: #1DB954;
+}
+hr{
+    color: white;
+}
+thead tr td{
+    color: #1DB954;
+    padding: 10px 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-top:3rem;
+    border-color: white;
+    margin-bottom: 5rem;
+}
+label{
+    color: white;
+    margin-left: 2rem;
+}
+legend{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+fieldset{
+    border-radius: 5px;
+    border-color: rgb(60, 60, 60);
+}
+input[value="Submit"]{
+    background-color: #1DB954;
+    padding: 0.25rem;
+    border-radius: 3px;
+    margin-left:2rem;
+    margin-bottom: 1rem;
+    border:none;
+
+}
+td{
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 1rem;
+}
+a,
+a:visited{
+    margin-left: 47%;
+    text-decoration: none;   
+    color: white; 
+}
+a:hover{
+    text-decoration: underline;
+}
+tr:nth-child(odd){
+    background-color: rgb(46, 46, 46);
+}
+th{
+    color: #1DB954;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #191414;
+}
